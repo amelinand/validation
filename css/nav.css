@@ -1,0 +1,121 @@
+
+
+
+
+* {
+    margin: 0;  
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+}
+header {
+    height: 10vh;
+    display: flex;
+    background: linear-gradient(rgb(16, 173, 201),rgb(16, 173, 201),rgb(19, 189, 219), rgb(96, 150, 194));
+    background-color: rgb(17, 169, 230);
+    overflow: hidden;
+    font-family: 'Marker Felt', fantasy;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 3px;
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+
+}
+
+nav{
+    width: 100%;
+
+}
+
+
+
+nav > ul {
+    
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(214, 218, 218);
+    border: 1px solid rgb(36, 192, 192);
+    border-radius: 4px;
+    background-color: rgb(19, 189, 219);
+    padding: 4px 7px;
+    border: solid 1px hsl(50, 50%, 50%);
+    font-size: 1.4em;
+    transition-duration: 1s;
+}
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 184, 223);
+    text-shadow: rgb(122, 122, 122) 4px 3px 0px;
+    letter-spacing: 7px;
+    
+}
+
+nav li{
+    display: flex;
+    align-items: center;
+}
+
+.pink{
+    background-color: pink;
+}
+
+
+.display {
+    display: flex;
+    align-items: center;
+}
+.none {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+.ghost {
+    display: none;
+}
+
+.none:hover .ghost{
+    display: block;
+    position: absolute;
+    top: 36px; 
+}
+
+a {
+    position: absolute;
+    box-shadow: 2px 3px 5px white;
+}
+
+li a{
+    box-shadow: 2px 3px 5px white;
+}
+
+
+footer {
+    height: 8vh;
+    background-color: rgb(17, 169, 230);
+    background: linear-gradient(rgb(16, 173, 201),rgb(16, 173, 201),rgb(19, 189, 219), rgb(96, 150, 194));
+    font-family: 'Marker Felt', fantasy;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    letter-spacing: 3px;
+    color: rgb(214, 218, 218);
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+    font-size: 1.4em;
+}
+

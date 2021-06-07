@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family:  'Marker Felt', fantasy;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../img/log.jpg");
+    background-color: rgb(164, 221, 253);
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+    letter-spacing: 3px;
+    background-position: right;
+    filter: brightness(100%);
+}
+
+
+h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 6em;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: rgb(182, 182, 39);
+    text-shadow: 1px 1px hsl(50, 50%, 45%),
+                 2px 2px hsl(50, 50%, 40%),
+                 3px 3px hsl(50, 50%, 35%),
+                 4px 4px hsl(50, 50%, 34%),
+                 5px 5px hsl(50, 50%, 33%),
+                 6px 6px hsl(50, 50%, 32%),
+                 7px 7px hsl(50, 50%, 31%),
+                 8px 8px hsl(50, 50%, 30%),
+                 9px 9px hsl(50, 50%, 29%),
+                 10px 10px hsl(50, 50%, 28%),
+                 10px 10px 30px rgba(0,0,0,.7);
+  }
+  
+
+form {
+
+    height: 33%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 5%;
+    border: solid 1px hsl(50, 50%, 50%);
+    font-size: 1.5em;
+    box-shadow: 10px 5px 5px white;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    text-align-last: inherit;
+}
+
+.inset_input {
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    height: 25px;
+    padding: 5px 10px 5px 5px;
+    font-size: 15px;
+    /*border-radius*/
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 30px;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.02) 0%, rgba(255, 255, 255, 0.02) 50%);
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.02) 0%, rgba(255, 255, 255, 0.02) 50%);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.02) 0%, rgba(255, 255, 255, 0.02) 50%);
+    width: 200px;
+    /*box-shadow*/
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1)
+
+}
+.inset_input:focus {
+    border: 1px solid #999 !important;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+
+}
+
+.blue_button {
+    border: solid 1px #328cca;
+    height: 40px;
+    font-size: 20px;
+    /*border-radius*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 30px;
+    color: #fff;
+    background-image: -moz-linear-gradient(top, #3798db, #2c7cd2);
+    background-image: -o-linear-gradient(top, #3798db, #2c7cd2);
+    background-image: -ms-linear-gradient(top, #3798db, #2c7cd2);
+    background-image: -webkit-linear-gradient(top, #3798db, #2c7cd2);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3798db), color-stop(1, #2c7cd2));
+    filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr=#3798db, EndColorStr=#2c7cd2)";
+    background-image: linear-gradient(top, #3798db, #2c7cd2);
+    width: 215px;
+    background-color: #2b96f1;
+    /*box-shadow*/
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.blue_button:hover {
+    background-image: -moz-linear-gradient(top, #3fadf9, #3493f9);
+    background-image: -o-linear-gradient(top, #3fadf9, #3493f9);
+    background-image: -webkit-linear-gradient(top, #3fadf9, #3493f9);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3fadf9), color-stop(1, #3493f9));
+    filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr=#3fadf9, EndColorStr=#3493f9)";
+    background-image: linear-gradient(top, #3fadf9, #3493f9);
+    letter-spacing: 6px;
+}
+
+form img{
+    height: 30px;
+    cursor: pointer;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+}
+
+
+
+div {
+    margin: 5px;
+}
+
+fieldset div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input:focus{
+    outline-color: blue 3px ;
+    outline-style: groove;
+}

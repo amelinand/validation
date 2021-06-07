@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  color: rgb(151, 248, 248);
+  display: flex;
+  flex-direction: column;
+  font-family:  'Marker Felt', fantasy;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  background-image: url("../img/acceuil.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  opacity: inherit;
+  }
+  
+  
+  h1,h2{
+    margin: 10%;
+    position: relative;
+    z-index: 2;
+    font-size: 2em;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px hsl(50, 50%, 45%),
+                 2px 2px hsl(50, 50%, 40%),
+                 3px 3px hsl(50, 50%, 35%),
+                 4px 4px hsl(50, 50%, 34%),
+                 5px 5px hsl(50, 50%, 33%),
+                 10px 10px 30px rgba(0,0,0,.7);
+
+}
+  
+
+p {
+  margin: 10%;
+  font-size: 2em;
+  text-shadow: -1px 0 black, 0 1px black,
+  1px 0 black, 0 -1px black;
+}
